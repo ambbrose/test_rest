@@ -85,7 +85,7 @@ DATABASES = {
 #     }
 }
 
-DATABASES['default'] = dj_database_url.config()
+# DATABASES['default'] = dj_database_url.config()
 # conn_max_age=600, ssl_require=True
 # DATABASES = {
 #     'default': {
@@ -134,10 +134,10 @@ USE_TZ = True
 # https://docs.djangoproject.com/en/4.1/howto/static-files/
 
 STATIC_URL = '/static/'
-MEDIA_URL = '/media/'
+# MEDIA_URL = '/media/'
 # STATICFILES_DIRS = [os.path.join(BASE_DIR, 'static')]
-STATIC_ROOT = BASE_DIR / 'staticfiles_build" / "static"
-MEDIA_ROOT = os.path.join(BASE_DIR, 'media_root')
+# STATIC_ROOT = BASE_DIR / 'staticfiles_build" / "static"
+# MEDIA_ROOT = os.path.join(BASE_DIR, 'media_root')
 
 # Default primary key field type
 # https://docs.djangoproject.com/en/4.1/ref/settings/#default-auto-field
