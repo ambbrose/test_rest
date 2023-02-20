@@ -13,4 +13,4 @@ pip install pytz==2022.7.1
 pip install sqlparse==0.4.3
 pip install tzdata==2022.7
 echo "stating to arrange static files"
-python manage.py collectstatic --noinput
+python manage.py collectstatic
