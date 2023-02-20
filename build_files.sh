@@ -7,7 +7,6 @@ pip install backports.zoneinfo==0.2.1
 pip install dj-database-url==1.2.0
 pip install Django==4.1.3
 pip install djangorestframework==3.14.0
-pip install mysqlclient
 pip install Pillow==9.4.0
 pip install python-decouple==3.7
 pip install pytz==2022.7.1
