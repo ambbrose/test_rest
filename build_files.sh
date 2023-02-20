@@ -1,6 +1,4 @@
 # build_files.sh
-echo "starting to upgrade pip"
-pip install --upgrade pip
 echo "using pip to install the packages"
 pip install asgiref==3.6.0
 pip install backports.zoneinfo==0.2.1
