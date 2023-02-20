@@ -8,6 +8,7 @@ pip install dj-database-url==1.2.0
 pip install Django==4.1.3
 pip install djangorestframework==3.14.0
 pip install Pillow==9.4.0
+pip install psycopg2==2.9.5
 pip install python-decouple==3.7
 pip install pytz==2022.7.1
 pip install sqlparse==0.4.3
