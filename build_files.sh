@@ -12,5 +12,7 @@ pip install python-decouple==3.7
 pip install pytz==2022.7.1
 pip install sqlparse==0.4.3
 pip install tzdata==2022.7
+echo "installing mysql hope"
+pip3 install mysqlclient
 echo "Arranging static files"
 python3.9 manage.py collectstatic
