@@ -83,7 +83,7 @@ WSGI_APPLICATION = 'backend.wsgi.application'
 DATABASES = {
     'default': config(
         'DATABASE_URL',
-        default='mysql://root:G4ALIepbRYB02nax9En6@containers-us-west-47.railway.app:6908/railway',
+        default='postgresql://postgres:jE0ovYtawsI2wsiVMKdL@containers-us-west-66.railway.app:6257/railway',
         cast=db_url
     )
 }
