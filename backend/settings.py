@@ -81,11 +81,11 @@ WSGI_APPLICATION = 'backend.wsgi.application'
 # https://docs.djangoproject.com/en/4.1/ref/settings/#databases
 
 DATABASES = {
-    'default': config(
-        'DATABASE_URL',
-        default='postgresql://postgres:jE0ovYtawsI2wsiVMKdL@containers-us-west-66.railway.app:6257/railway',
-        cast=db_url
-    )
+#     'default': config(
+#         'DATABASE_URL',
+#         default='postgresql://postgres:jE0ovYtawsI2wsiVMKdL@containers-us-west-66.railway.app:6257/railway',
+#         cast=db_url
+#     )
 }
 
 # DATABASES = {
